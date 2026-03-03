@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <nav>
+                <a href="learnchat.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <hr>
+
+        <h2>Customer Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+            <label  for="password">Password:</label><br>
+            <input type="text" id="password" name="password" placeholder="Enter your password" required><br><br>
+            <p>Gender:</p>
+            <label><input type="radio" name="gender" required> Male</label>
+            <label><input type="radio" name="gender" required> Female</label><br><br>
+
+            <p>Services Interested In:</p>
+            <label><input type="checkbox" name="service"> Thesis Binding</label>
+            <label><input type="checkbox" name="service"> Custom Journal</label><br><br>
+
+            <label>Select Country:</label><br>
+            <select id="country" name="country" required>
+                <option value="uganda">Uganda</option>
+                <option value="kenya">kenya</option>
+                <option value="tanzania">Tanzania</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your message here..." required></textarea><br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        
+        <hr>
+
+        <footer>
+            <p>&copy; 2026 Premium Hardcovers</p>
+            <p>Email: <a href="mailto: info@"premiumhardcovers.com>info@"premiumhardcovers.com</a></p>
+        </footer>
+    </body>
+
+</html>
