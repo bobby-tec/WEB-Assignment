@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* NAVIGATION BAR */
+nav {
+    background: #1e3a8a;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin:  0 15px;
+}
+
+/* HERO SECTION */
+
+.hero {
+    background-color: #3b82f6;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* SECTIONS */
+
+section {
+    padding: 40px;
+}
+
+/* HEADINGS */
+
+h1 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2653eb;
+    margin-bottom: 10px;
+}
+
+/* LISTS */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ACTIVITY CARDS */
+
+.activities {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;    
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: left;
+
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+/*  FORM STYLING */
+
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* CHECKBOX AND RADIO */
+
+input [type="checkbox"]
+input [type="radio"]{
+    width: auto;
+    margin-right: 5px;
+}
+
+/* BUTTON */
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* CONTACT INFO */
+
+.contact-info {
+    margin-top: 30px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15%;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:768px){
+    .activities {
+        flex-direction: column;
+}
+
+.card {
+    width: 100%;
+}
+
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    margin: 10px 0;
+}
+
+}
+
+
+
